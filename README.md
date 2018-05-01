@@ -8,6 +8,7 @@ The system has the flexibility to be enhanced with a common store front that con
 Using the Site Administration Module 
  
 The site administration URL is:
+
 http://localhost:8080/eshop/siteadmin/adminlogin.php 
 
 
