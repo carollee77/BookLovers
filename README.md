@@ -30,7 +30,7 @@ For the hosted website
 
 https://manlee77.000webhostapp.com/index.php (Customer Shopping)
 
-https://manlee77.000webhostapp.com/index.php (Vendor Admin)
+https://manlee77.000webhostapp.com/index2.php (Vendor Admin)
 
 https://manlee77.000webhostapp.com/siteadmin/adminlogin.php (Site Admin)
 
