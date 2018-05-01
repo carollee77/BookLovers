@@ -1,0 +1,146 @@
++--------------+-------------+------+-----+---------+----------------+
+Field	Type	Null	Key	Default	Extra	
++--------------+-------------+------+-----+---------+----------------+
+row_id	int(10)	NO	PRI	NULL	auto_increment	
+adm_username	varchar(20)	NO		NULL		
+adm_password	varchar(10)	NO		NULL		
+adm_email	varchar(30)	NO		NULL		
++--------------+-------------+------+-----+---------+----------------+
+
++--------------+---------------+------+-----+---------+----------------+
+Field	Type	Null	Key	Default	Extra	
++--------------+---------------+------+-----+---------+----------------+
+row_id	int(10)	NO	PRI	NULL	auto_increment	
+prd_id	varchar(10)	NO		NULL		
+username	varchar(10)	NO		NULL		
+bck_archive	varchar(15)	NO		NULL		
+bck_pname	varchar(30)	NO		NULL		
+bck_qty	int(10)	NO		NULL		
+bck_price	decimal(10,2)	NO		NULL		
+bck_fname	varchar(30)	NO		NULL		
+bck_lname	varchar(30)	NO		NULL		
+bck_odate	varchar(15)	NO		NULL		
+bck_ddate	varchar(15)	NO		NULL		
+bck_email	varchar(50)	NO		NULL		
+bck_baddress	text	NO		NULL		
+bck_saddress	text	NO		NULL		
+bck_country	varchar(40)	NO		NULL		
+bck_mobile	varchar(13)	NO		NULL		
+bck_phone	varchar(20)	NO		NULL		
++--------------+---------------+------+-----+---------+----------------+
+
+
++-----------------+---------------+------+-----+---------+----------------+
+Field	Type	Null	Key	Default	Extra	
++-----------------+---------------+------+-----+---------+----------------+
+row_id	int(10)	NO	PRI	NULL	auto_increment	
+s_id	varchar(10)	NO		NULL		
+username	varchar(20)	NO		NULL		
+prd_id	varchar(20)	NO		NULL		
+cart_name	varchar(50)	NO		NULL		
+cart_img	varchar(10)	NO		NULL		
+cart_qty	int(10)	NO		NULL		
+cart_qtyavb	int(10)	NO		NULL		
+cart_qtyordered	int(10)	NO		NULL		
+cart_act	decimal(10,2)	NO		NULL		
+cart_dis	decimal(10,2)	NO		NULL		
+cart_price	decimal(10,2)	NO		NULL		
++-----------------+---------------+------+-----+---------+----------------+
+
++------------------+-------------+------+-----+---------+----------------+
+Field	Type	Null	Key	Default	Extra	
++------------------+-------------+------+-----+---------+----------------+
+row_id	int(10)	NO	PRI	NULL	auto_increment	
+cat_category	varchar(30)	NO		NULL		
+cat_sub_category	varchar(30)	NO		NULL		
+cat_descreption	text	NO		NULL		
++------------------+-------------+------+-----+---------+----------------+
+
++--------------+-------------+------+-----+---------+----------------+
+Field	Type	Null	Key	Default	Extra	
++--------------+-------------+------+-----+---------+----------------+
+row_id	int(10)	NO	PRI	NULL	auto_increment	
+country_name	varchar(40)	NO		NULL		
++--------------+-------------+------+-----+---------+----------------+
+
++-----------------------+-------------+------+-----+---------+----------------+
+Field	Type	Null	Key	Default	Extra	
++-----------------------+-------------+------+-----+---------+----------------+
+row_id	int(10)	NO	PRI	NULL	auto_increment	
+log_sal	varchar(5)	NO		NULL		
+log_fname	varchar(30)	NO		NULL		
+log_lname	varchar(30)	NO		NULL		
+log_gender	varchar(6)	NO		NULL		
+log_email	varchar(50)	NO		NULL		
+username	varchar(20)	NO		NULL		
+log_password	varchar(20)	NO		NULL		
+log_url	varchar(40)	NO		NULL		
+log_security_question	varchar(30)	NO		NULL		
+log_security_answer	varchar(20)	NO		NULL		
+log_address	text	NO		NULL		
+log_country	varchar(40)	NO		NULL		
+log_mobile	varchar(13)	NO		NULL		
+log_phone	varchar(20)	NO		NULL		
+log_about_us	text	NO		NULL		
+log_regdate	date	NO		NULL		
++-----------------------+-------------+------+-----+---------+----------------+
+
++--------------------+---------------+------+-----+---------+----------------+
+Field	Type	Null	Key	Default	Extra	
++--------------------+---------------+------+-----+---------+----------------+
+row_id	int(10)	NO	PRI	NULL	auto_increment	
+prd_id	varchar(10)	NO		NULL		
+username	varchar(10)	NO		NULL		
+ord_pname	varchar(30)	NO		NULL		
+ord_qty	int(10)	NO		NULL		
+ord_price	decimal(10,2)	NO		NULL		
+ord_fname	varchar(30)	NO		NULL		
+ord_lname	varchar(30)	NO		NULL		
+ord_odate	varchar(15)	NO		NULL		
+ord_ddate	varchar(15)	NO		NULL		
+ord_email	varchar(50)	NO		NULL		
+ord_baddress	text	NO		NULL		
+ord_saddress	text	NO		NULL		
+ord_country	varchar(40)	NO		NULL		
+ord_mobile	varchar(13)	NO		NULL		
+ord_phone	varchar(20)	NO		NULL		
+ord_deliverystatus	varchar(10)	NO		NULL		
+ord_sid	varchar(10)	NO		NULL		
++--------------------+---------------+------+-----+---------+----------------+
+
++---------------------+---------------+------+-----+---------+----------------+
+Field	Type	Null	Key	Default	Extra	
++---------------------+---------------+------+-----+---------+----------------+
+row_id	int(10)	NO	PRI	NULL	auto_increment	
+username	varchar(20)	NO		NULL		
+prd_id	varchar(10)	NO		NULL		
+price_actual	decimal(10,2)	NO		NULL		
+price_discount	decimal(10,2)	NO		NULL		
+price_discount_type	varchar(5)	NO		NULL		
++---------------------+---------------+------+-----+---------+----------------+
+
++-----------------------+-------------+------+-----+---------+----------------+
+Field	Type	Null	Key	Default	Extra	
++-----------------------+-------------+------+-----+---------+----------------+
+row_id	int(10)	NO	PRI	NULL	auto_increment	
+username	varchar(20)	NO		NULL		
+prd_id	varchar(10)	NO		NULL		
+prd_sname	varchar(30)	NO		NULL		
+prd_lname	varchar(50)	NO		NULL		
+prd_photo	varchar(30)	NO		NULL		
+prd_size	varchar(20)	NO		NULL		
+prd_uom	varchar(20)	NO		NULL		
+prd_qty	int(10)	NO		NULL		
+prd_color	varchar(50)	NO		NULL		
+prd_brand	varchar(20)	NO		NULL		
+prd_feature	text	NO		NULL		
+prd_cat	varchar(30)	NO		NULL		
+prd_sub_cat	varchar(30)	NO		NULL		
+prd_sdis	text	NO		NULL		
+prd_ldis	text	NO		NULL		
+prd_qtyavb	int(10)	NO		NULL		
+prd_status	varchar(11)	NO		NULL		
+prd_delivery_mode	varchar(30)	NO		NULL		
+prd_delivery_leadtime	int(10)	NO		NULL		
+prd_sep	text	NO		NULL		
++-----------------------+-------------+------+-----+---------+----------------+
