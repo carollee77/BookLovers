@@ -5,6 +5,8 @@ The online book store application is designed to be a generic online ecommerce p
  
 The system has the flexibility to be enhanced with a common store front that consolidates all the vendors. With this enhancement, a customer can access the products of all registered vendors from a single point of entry. 
 
+How to run our website? The detail is in the readme.pdf file
+
 Using the Site Administration Module 
  
 The site administration URL is:
@@ -13,18 +15,23 @@ http://localhost:8080/eshop/siteadmin/adminlogin.php
 
 
 The vendor administration URL is: 
+
 http://localhost:8080/eshop/booklovers/index.php
+
 You can click the register on the customer website to register become Vendor or
 
 http://localhost:8080/eshop/index.php
 
 Using the Online Store as a customer 
+
 http://localhost:8080/eshop/booklovers/index.php
 
 For the hosted website
 
 https://manlee77.000webhostapp.com/index.php (Customer Shopping)
+
 https://manlee77.000webhostapp.com/index.php (Vendor Admin)
+
 https://manlee77.000webhostapp.com/siteadmin/adminlogin.php (Site Admin)
 
 
